@@ -16,6 +16,12 @@
 		88FF263A17025BCD00FDB505 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF263917025BCD00FDB505 /* Default.png */; };
 		88FF263C17025BCD00FDB505 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF263B17025BCD00FDB505 /* Default@2x.png */; };
 		88FF263E17025BCD00FDB505 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF263D17025BCD00FDB505 /* Default-568h@2x.png */; };
+		88FF264717025D4D00FDB505 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FF264517025D4D00FDB505 /* MainViewController.m */; };
+		88FF264817025D4D00FDB505 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88FF264617025D4D00FDB505 /* MainViewController.xib */; };
+		88FF264E17025E9600FDB505 /* btn_future.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF264A17025E9600FDB505 /* btn_future.png */; };
+		88FF264F17025E9600FDB505 /* cb_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF264B17025E9600FDB505 /* cb_bg.png */; };
+		88FF265017025E9600FDB505 /* fortune_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF264C17025E9600FDB505 /* fortune_logo.png */; };
+		88FF265117025E9600FDB505 /* fortune_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FF264D17025E9600FDB505 /* fortune_logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,13 @@
 		88FF263917025BCD00FDB505 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		88FF263B17025BCD00FDB505 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		88FF263D17025BCD00FDB505 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88FF264417025D4D00FDB505 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		88FF264517025D4D00FDB505 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		88FF264617025D4D00FDB505 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		88FF264A17025E9600FDB505 /* btn_future.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_future.png; sourceTree = "<group>"; };
+		88FF264B17025E9600FDB505 /* cb_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_bg.png; sourceTree = "<group>"; };
+		88FF264C17025E9600FDB505 /* fortune_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fortune_logo.png; sourceTree = "<group>"; };
+		88FF264D17025E9600FDB505 /* fortune_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fortune_logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +91,12 @@
 		88FF262D17025BCD00FDB505 /* CrystalBallApp */ = {
 			isa = PBXGroup;
 			children = (
+				88FF264917025E8400FDB505 /* Images */,
 				88FF263617025BCD00FDB505 /* AppDelegate.h */,
 				88FF263717025BCD00FDB505 /* AppDelegate.m */,
+				88FF264417025D4D00FDB505 /* MainViewController.h */,
+				88FF264517025D4D00FDB505 /* MainViewController.m */,
+				88FF264617025D4D00FDB505 /* MainViewController.xib */,
 				88FF262E17025BCD00FDB505 /* Supporting Files */,
 			);
 			path = CrystalBallApp;
@@ -97,6 +114,17 @@
 				88FF263D17025BCD00FDB505 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88FF264917025E8400FDB505 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				88FF264A17025E9600FDB505 /* btn_future.png */,
+				88FF264B17025E9600FDB505 /* cb_bg.png */,
+				88FF264C17025E9600FDB505 /* fortune_logo.png */,
+				88FF264D17025E9600FDB505 /* fortune_logo@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +182,11 @@
 				88FF263A17025BCD00FDB505 /* Default.png in Resources */,
 				88FF263C17025BCD00FDB505 /* Default@2x.png in Resources */,
 				88FF263E17025BCD00FDB505 /* Default-568h@2x.png in Resources */,
+				88FF264817025D4D00FDB505 /* MainViewController.xib in Resources */,
+				88FF264E17025E9600FDB505 /* btn_future.png in Resources */,
+				88FF264F17025E9600FDB505 /* cb_bg.png in Resources */,
+				88FF265017025E9600FDB505 /* fortune_logo.png in Resources */,
+				88FF265117025E9600FDB505 /* fortune_logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +199,7 @@
 			files = (
 				88FF263417025BCD00FDB505 /* main.m in Sources */,
 				88FF263817025BCD00FDB505 /* AppDelegate.m in Sources */,
+				88FF264717025D4D00FDB505 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
