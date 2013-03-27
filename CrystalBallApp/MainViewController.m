@@ -45,6 +45,7 @@ NSString *fortune;
                 @"Hahahahaha",
                 nil];
     BOOL over = [[NSUserDefaults standardUserDefaults] boolForKey:@"overage"];
+    
     if (over) {
         [tooManyPressesOutlet setHidden:YES];
         UIAlertView *overageAlert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"You need to buy the premium version for more fortunes" delegate:nil cancelButtonTitle:@"Purchase" otherButtonTitles:@"Cancel", nil];
@@ -77,6 +78,12 @@ int count = 0;
         UIAlertView *overageAlert = [[UIAlertView alloc] initWithTitle:@"No More" message:@"You only have 3 fortunes, you should upgrade" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
         [overageAlert show];
     }
+}
+-(IBAction)resetUses:(id)sender{
+    [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"overage"];
+    [tooManyPressesOutlet setHidden:NO];
+    count = 0;
+
 }
 
 

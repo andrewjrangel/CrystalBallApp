@@ -10,6 +10,7 @@
 
 @interface MainViewController : UIViewController
 -(IBAction)fortuneButton:(id)sender;
+-(IBAction)resetUses:(id)sender;
 @property (strong, nonatomic) IBOutlet UILabel *fortuneLabel;
 @property (strong, nonatomic) IBOutlet UIButton *tooManyPressesOutlet;
 
